@@ -16,3 +16,7 @@ python manage.py runserver
 网上找了好多后台模板，很多都没有带多选项卡的。
 即使有的，整合到django框架，非常麻烦！
 只有LeaRun框架，整合才比较简单！特别是多选项卡效果。
+
+首页有一些图表,我给删除了。需要用的话，推荐使用Highcharts
+参考链接
+http://www.py3study.com/Article/details/id/317.html
