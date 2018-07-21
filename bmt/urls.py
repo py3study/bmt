@@ -21,4 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
     path('index/', views.index),
+    path('default/', views.default),
+    # 行政区域
+    path('SystemManage/zxqy/', views.zxqy),
+
 ]
