@@ -28,4 +28,5 @@
 http://www.py3study.com/Article/details/id/317.html
 
 效果如下：
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+
+![Image text](https://github.com/py3study/bmt/blob/master/效果图.png)
