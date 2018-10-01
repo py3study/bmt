@@ -27,7 +27,34 @@
 参考链接
 http://www.py3study.com/Article/details/id/317.html
 
-## 效果如下
+## 添加新页面
+比如,增加通用字典
+
+修改bmt/urls.py,添加url
+```python
+path('SystemManage/tyzd/', views.tyzd),
+```
+
+修改 bmt/backstage/views.py,增加视图函数
+
+```python
+def tyzd(request):
+    return render(request, "tyzd.html")
+```
+
+进入目录 bmt/templates/,新建tyzd.html
+```html
+<h1>测试一下<h1>
+```
+
+修改 bmt/templates/index.html,修改通用字典的href属性
+```html
+href="/SystemManage/tyzd"><i class="fa fa-book"></i>通用字典
+```
+
+最后重启django,刷新页面,重新点击左侧的通用字典,就可以了！
+
+## 首页效果如下：
 
 ![Image text](https://github.com/py3study/bmt/blob/master/效果图.png)
 Copyright (c) 2018-present, xiao You
