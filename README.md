@@ -54,6 +54,14 @@ href="/SystemManage/tyzd"><i class="fa fa-book"></i>通用字典
 
 最后重启django,刷新页面,重新点击左侧的通用字典,就可以了！
 
+## Bug修复
+1. 修复了首页选项卡内容显示问题
+2. 修复了无法关闭某些多标签问题
+3. 删除多余的静态文件
+4. 调整静态目录结构
+5. 更新bootstrap-3.3.7以及font-awesome-4.7.0
+6. 调整web和api路由,做了路由分发。以及视图函数优化！
+
 ## 首页效果如下：
 
 ![Image text](https://github.com/py3study/bmt/blob/master/效果图.png)
